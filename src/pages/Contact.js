@@ -8,7 +8,7 @@ const Contact = () => {
     event.preventDefault();
     const form = event.target;
 
-    fetch("https://formsubmit.co/mpriyanshi38@gmail.com", {
+    fetch("https://formsubmit.co/253cb3e2a30ff4daad627b9c51cce9b0", {
       method: "POST",
       body: new FormData(form),
     }).then(() => {

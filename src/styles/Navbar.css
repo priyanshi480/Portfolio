@@ -5,6 +5,8 @@
   justify-content: space-between;
   align-items: center;
   border-bottom: 3px solid #f39c12;
+  position: relative;
+  z-index: 9999;
 }
 .navbar ul li a:hover {
   color: #ffeb3b;

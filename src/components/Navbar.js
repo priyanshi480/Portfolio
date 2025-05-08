@@ -12,9 +12,6 @@ const Navbar = ({ toggleDarkMode }) => {
         <li><Link to="/projects">Projects</Link></li>
         <li><Link to="/contact">Contact</Link></li>
       </ul>
-      <button className="toggle-theme" onClick={toggleDarkMode}>
-        {document.body.classList.contains("dark-mode") ? <Sun /> : <Moon />}
-      </button>
     </nav>
   );
 };
