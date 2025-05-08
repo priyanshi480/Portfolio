@@ -1,0 +1,38 @@
+.homepage-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh; /* Ensures full screen height */
+  width: 100%;
+  padding: 0 20px;
+  box-sizing: border-box;
+  position: relative;
+  transform: translateY(-15%);
+}
+
+/* Push everything slightly up */
+.homepage-container h1,
+.homepage-container p,
+.homepage-container button {
+  margin: 25px 20;
+}
+
+/* Button styling */
+.view-work-button {
+  background-color: #ff5733; /* Matches the form's send button */
+  color: white;
+  font-size: 18px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+  margin-top: 20px;
+}
+
+.view-work-button:hover {
+  background-color: #e64a19; /* Slightly darker on hover */
+}
